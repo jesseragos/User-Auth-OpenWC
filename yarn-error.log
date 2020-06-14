@@ -1,0 +1,65 @@
+Arguments: 
+  /Users/ragosjesseiel/.nvm/versions/node/v14.0.0/bin/node /Users/ragosjesseiel/.nvm/versions/node/v14.0.0/bin/yarn init
+
+PATH: 
+  /Users/ragosjesseiel/.nvm/versions/node/v14.0.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  14.0.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/Users/ragosjesseiel/.nvm/versions/node/v14.0.0/lib/node_modules/yarn/lib/cli.js:137008:13)
+      at Interface.emit (events.js:315:20)
+      at Interface._ttyWrite (readline.js:873:16)
+      at ReadStream.onkeypress (readline.js:213:10)
+      at ReadStream.emit (events.js:315:20)
+      at emitKeys (internal/readline/utils.js:335:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1140:36)
+      at ReadStream.emit (events.js:315:20)
+      at addChunk (_stream_readable.js:296:12)
+
+npm manifest: 
+  {
+    "name": "mern-auth",
+    "version": "1.0.0",
+    "main": "server.js",
+    "scripts": {
+      "client-install": "npm install --prefix client",
+      "start": "node server.js",
+      "server": "nodemon server.js",
+      "client": "npm start --prefix client",
+      "dev": "concurrently \"npm run server\" \"npm run client\""
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "bcryptjs": "^2.4.3",
+      "body-parser": "^1.19.0",
+      "concurrently": "^5.2.0",
+      "express": "^4.17.1",
+      "is-empty": "^1.2.0",
+      "jsonwebtoken": "^8.5.1",
+      "mongoose": "^5.9.18",
+      "passport": "^0.4.1",
+      "passport-jwt": "^4.0.0",
+      "validator": "^13.0.0"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.4"
+    },
+    "description": ""
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
