@@ -6,3 +6,6 @@ ___________
 
 # User-Auth-OpenWC
 User authentication feature using register and sign-in options demonstrated in @OpenWC
+
+## Installation
+- Use 'Yarn' for installing package.json
