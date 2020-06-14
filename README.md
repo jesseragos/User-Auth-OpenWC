@@ -8,4 +8,4 @@ ___________
 User authentication feature using register and sign-in options demonstrated in @OpenWC
 
 ## Installation
-- Use 'Yarn' for installing package.json
+- Use 'Yarn' for installing package.json for both server and client project.
